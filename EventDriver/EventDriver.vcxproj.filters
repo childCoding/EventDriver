@@ -13,36 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="EventDriver">
+      <UniqueIdentifier>{291f6a55-af6a-48c9-bdc5-ffafc1288927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SafeQueue">
+      <UniqueIdentifier>{f8b15655-a20a-46a5-a737-026b0b10ac54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Event.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="EventSet.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="FunctionSlot.cpp">
-      <Filter>源文件</Filter>
+      <Filter>EventDriver</Filter>
     </ClCompile>
     <ClCompile Include="EventArgs.cpp">
-      <Filter>源文件</Filter>
+      <Filter>EventDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSet.cpp">
+      <Filter>EventDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionSlot.cpp">
+      <Filter>EventDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeQueue.cpp">
+      <Filter>SafeQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectLockable.cpp">
+      <Filter>SafeQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>SafeQueue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Event.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="EventSet.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="FunctionSlot.h">
-      <Filter>头文件</Filter>
+      <Filter>EventDriver</Filter>
     </ClInclude>
     <ClInclude Include="EventArgs.h">
-      <Filter>头文件</Filter>
+      <Filter>EventDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSet.h">
+      <Filter>EventDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionSlot.h">
+      <Filter>EventDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectLockable.h">
+      <Filter>SafeQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>SafeQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeQueue.h">
+      <Filter>SafeQueue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

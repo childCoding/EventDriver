@@ -66,13 +66,19 @@
     <ClCompile Include="EventArgs.cpp" />
     <ClCompile Include="EventSet.cpp" />
     <ClCompile Include="FunctionSlot.cpp" />
+    <ClCompile Include="Lock.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ObjectLockable.cpp" />
+    <ClCompile Include="SafeQueue.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Event.h" />
     <ClInclude Include="EventArgs.h" />
     <ClInclude Include="EventSet.h" />
     <ClInclude Include="FunctionSlot.h" />
+    <ClInclude Include="Lock.h" />
+    <ClInclude Include="ObjectLockable.h" />
+    <ClInclude Include="SafeQueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
